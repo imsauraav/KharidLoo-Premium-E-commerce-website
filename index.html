@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" href="KharidLoo-logo.png">
+  <title>KharidLoo — Premium E-commerce</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <button id="menu-toggle" class="icon-btn"><i class="ri-menu-line"></i></button>
+    <img src="icon 2.png" alt="KharidLoo" class="brand-logo">
+    <div class="brand-text">
+      <span class="brand-name">KharidLoo</span>
+      <span class="brand-tag">Style. Luxury. You.</span>
+    </div>
+  </div>
+  <div class="search-row">
+    <input id="search-input" placeholder="Search for products, categories..." />
+    <button id="search-btn" class="cta"><i class="ri-search-line"></i></button>
+  </div>
+  <div class="actions">
+    <button id="theme-toggle" class="icon-btn"><i class="ri-moon-line"></i></button>
+    <button id="cart-btn" class="icon-btn"><i class="ri-shopping-bag-2-line"></i><span id="cart-count" class="badge">0</span></button>
+    <button class="icon-btn profile"><i class="ri-user-line"></i></button>
+  </div>
+  
+</header>
+
+<aside id="sidebar" class="sidebar">
+  <nav>
+    <a class="nav-item active" data-category="all">All</a>
+    <a class="nav-item" data-category="clothes">Clothes</a>
+    <a class="nav-item" data-category="sports">Sports</a>
+    <a class="nav-item" data-category="books">Books</a>
+    <a class="nav-item" data-category="electronics">Electronics</a>
+    <a class="nav-item" data-category="watches">Watches</a>
+    <a class="nav-item" data-category="bags">Bags</a>
+  </nav>
+</aside>
+
+<main class="main">
+  <section class="hero">
+    <div class="hero-left">
+      <h1>Welcome to <span>KharidLoo</span></h1>
+      <p>Branded looks, premium feel — curated for style lovers. Shop the latest products with exclusive discounts.</p>
+      <a class="btn-primary" href="#products">Shop Now</a>
+    </div>
+    <div class="hero-right">
+      <img src="KharidLoo-logo.png" alt="Hero product">
+    </div>
+  </section>
+
+  <!-- MAIN PRODUCTS SECTION -->
+  <section id="products" class="products-section">
+    <!-- All products -->
+    <div class="products-grid">
+      <!-- CLOTHES -->
+      <div class="product-card" data-category="clothes" data-id="c1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd8xzaAmyg0WbJjU5NSksbhNtJxgnkRjfr2Q&s"alt="loading..."><h3>Formal Shirt</h3><p>₹1,499</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c1"><img src="https://i.pinimg.com/736x/ab/77/1b/ab771bb2ff6aa576e45ca440b8e7fee7.jpg" alt="loading... check your internet"><h3>Business casual attire for men</h3><p>₹499</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNZ8btabbVIgL2ZIyvemnbrtsKKe7iTo7eNA&s"alt="loading..."><h3>Wrogn | Black & Bold.</h3><p>₹2,499</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c1"><img src="https://i.pinimg.com/564x/d8/5d/86/d85d866929454f13e90c4382296581f6.jpg"alt="loading..."><h3>BLACK-formal shirt</h3><p>₹799</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj0tTpQGLdOwvuWtE5aGKfATkTiaq9NDgJ1g&s" alt="loading..."><h3>Denim Jeans</h3><p>₹1,999</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c2"><img src="https://wrogn.com/cdn/shop/files/look7-0192.jpg?v=1733817366"alt="loading... check your internet"><h3>Casual Loose Fit Denim Cargo | Blue</h3><p>₹2,079</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c2"><img src="https://img.kwcdn.com/product/fancy/6f2c2ca1-a386-4a0a-b8d3-969dee5a4742.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp" alt="loading..."><h3>men's loose fit straight leg jeans side pockets</h3><p>₹2,999</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c2"><img src="https://img4.dhresource.com/webp/m/0x0/f3/albu/km/g/07/dc12f0c2-fb25-4f17-9f90-ed4e2ef156e7.jpg" alt="loading..."><h3>Mens Green Cargo Jeans: Vintage Distressed Denim, Wide Leg, Retro Oversized Hip Hop Streetwear...</h3><p>₹4,999</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c3"><img src="https://m.media-amazon.com/images/I/61kHoFE8mAL._UY1100_.jpg" alt="loading..."><h3>Casual T-Shirt</h3><p>₹899</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXVKjKqDW-BlRqtTMRJmOgjJATwrcwCObAdQ&s" alt="loading..."><h3>Colorado Oversized T-Shirt</h3><p>₹599</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c3"><img src="https://veirdo.in/cdn/shop/files/18_5.jpg?v=1754545490" alt="loading..."><h3>Veirdo Original Navy Oversized Typography Brand Printed Tshirt XXL</h3><p>₹579</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c3"><img src="https://www.soulla.in/cdn/shop/products/MaleModelWearingSunflowerSerenadeVanGoghOversizedT-ShirtWhiteSoulla.jpg?v=1714890663&width=416" alt="loading..."><h3>Soulla's Oversized T-Shirt</h3><p>₹799</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4kLE3ox-D-7sPjcC0rLJUY95oyU-rJHf0Ow&s" alt="loading"><h3>Summer Dress</h3><p>₹2,499</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-cP2rTGzXa5avQlvCbzJbfadC75ZVjyNmyg&s" alt="loading..."><h3>Summer Dress-2</h3><p>₹2,399</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c4"><img src="https://i.pinimg.com/564x/55/53/99/555399e6ccac961279276c7a69da6428.jpg" alt="loading"><h3>Summer Dress-3</h3><p>₹2,099</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjyGTysub5jQHeIHpZgtchiY3vK5hfwK5gaA&s" alt="loading..."><h3>Summer Dress-4</h3><p>₹1,299</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR66lfKevKKX6MQapvVkbSqDDOFqUintkt4DA&s" alt="loading..."><h3>Jacket</h3><p>₹3,499</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2R53a7FBzKkNignssTwwcU5akAgCLlAIxgg&s" alt="loading..."><h3>Jactet-2</h3><p>₹2,499</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSOiT7XHQQBzdOw8iFIOow_DGMabmnIJvruA&s" alt="loading..."><h3>Jactet-3</h3><p>₹3,799</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFHgAUxsGAAqdwy1sJ6KdPIYTgpF8mhSd7VQ&s" alt="loading..."><h3>Jactet-4</h3><p>₹6,499</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEqfBwoFvMGeo91kWcXH41MMxH_l5XpRjMQQ&s" alt="loading..."><h3>Hoodie</h3><p>₹2,999</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPft5c8Em4yg8Tf5IVZ4D-JFJ42y7sbYtWsg&s" alt="loading..."><h3>Hoodie-2</h3><p>₹3,999</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c6"><img src="https://thalasiknitfab.com/cdn/shop/files/07590563800-A2M_copy3_copy_490x.progressive.png.jpg?v=1731755737" alt="loading..."><h3>Hoodie-3</h3><p>₹2,199</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf21pa9h97vdIc-_ZwKfRCf5rofV2V1HSRBw&s" alt="loading..."><h3>Hoodie-4</h3><p>₹4,999</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUrt21nHw4M7ZE-37YSdm6lgrQvLx6KheUZg&s" alt="loading..."><h3>Hoodie-5</h3><p>₹3,999</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMd6xJ89Gu9bV0Ve32CzP7BX3qygMPOfUUNQ&s" alt="loading..."><h3>Sweater</h3><p>₹1,799</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c6"><img src="https://images.meesho.com/images/products/142481028/0hhnj_512.webp?width=512" alt="loading..."><h3>Formal Pants</h3><p>₹2,199</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5sHUwbz8kR1HouyPSRc3KKQBekLMj3f0zsw&s" alt="loading..."><h3>Skirt</h3><p>1,199</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="clothes" data-id="c6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiKEmQJVkCLKIko21_DjvnjCP9sfoqTZwBZA&s" alt="loading..."><h3>Blazer</h3><p>₹3,199</p><button class="add-cart">Add to Cart</button></div>
+
+      <!-- SPORTS -->
+      <div class="product-card" data-category="sports" data-id="s1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYo2g4H6hBdc3Hgz0BQiSjYJVRTclj7mX2ZQ&s" alt="loading..."><h3>Football</h3><p>₹1,999</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="sports" data-id="s2"><img src="https://rukminim3.flixcart.com/image/824/972/xif0q/shopsy-bat/s/m/6/800-900-6-mrf-size-6-poplar-willow-cricket-bat-grade-1-mrf-original-imah5apn8p75dams.jpeg?q=60&crop=false" alt="loading..."><h3>Cricket Bat</h3><p>₹2,499</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="sports" data-id="s3"><img src="https://m.media-amazon.com/images/I/811SqfQFzgL._UF894,1000_QL80_.jpg" alt="loading..."><h3>Basketball</h3><p>₹1,199</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="sports" data-id="s4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT8xMf5hj420FyvZlrnzgQmo1n4F76iKRLKA&s" alt="loading..."><h3>Tennis Racket</h3><p>₹3,499</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="sports" data-id="s5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHHnU_CAeyZVe2JMORlaApWUsUaLDCB1kzQw&s" alt="loading..."><h3>Yoga Mat</h3><p>₹799</p><button class="add-cart">Add to Cart</button></div>
+      <div class="product-card" data-category="sports" data-id="s6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFCI7W7Bteysyn3Sk8bukmdMOyovFQf0_9Yg&s" alt="loading..."><h3>Running Shoes</h3><p>₹2,999</p><button class="add-cart">Add to Cart</button></div>
+
+      <!-- Add other categories in same way (6 items each) -->
+          <!-- boooks -->
+          <div class="product-card" data-category="books" data-id="b1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ZzrU_RJeTU-FYF_TRvZyo2zjARTe1GyQNw&s" alt="loading..."><h3>गुनाहों का देवता</h3><p>₹399</p><button class="add-cart" data-id="b2">Add to Cart</button></div>
+          <div class="product-card" data-category="books" data-id="b2"><img src="https://gyaanstore.com/cdn/shop/files/145_595179f5-41e5-4217-ba61-60c8443a161c.png?v=1757534864&width=1946" alt="loading..."><h3>गोदान</h3><p>₹599</p><button class="add-cart" data-id="b3">Add to Cart</button></div>
+          <div class="product-card" data-category="books"data-id="b3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCC4pvrCiMYrti6XVnYOLWAnAy7Arx__i-Aw&s" alt="loading..."><h3>अलंकार</h3><p>₹449</p><button class="add-cart" data-id="b4">Add to Cart</button></div>
+          <div class="product-card" data-category="books" data-id="b4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiTbJIJv_e9dKdYmh8Xuch2-1eqFlqfZnulQ&s" alt="loading..."><h3>कफन</h3><p>₹499</p><button class="add-cart" data-id="b5">Add to Cart</button></div>
+          <div class="product-card" data-category="books" data-id="b5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwgqbUxXxKaZcH9m-gyuuyCgq01fDcNlqo1Q&s" alt="loading..."><h3>चित्रलेखा</h3><p>₹399</p><button class="add-cart" data-id="b6">Add to Cart</button></div>
+     
+            <!-- electronics -->
+          <div class="product-card" data-category="electronics" data-id="e1"><img src="https://m.media-amazon.com/images/I/71d7rfSl0wL._UF1000,1000_QL80_.jpg" alt="loading..."><h3>Apple iPhone 15 (128 GB) - Blue</h3><p>₹47,999</p><button class="add-cart" data-id="e1">Add to Cart</button></div>
+          <div class="product-card"data-category="electronics" data-id="e2"><img src="https://shop.switch.com.my/cdn/shop/files/iPhone_15_Pink_PDP_Image_Position-1__GBEN_7cf60425-0d5a-4bc9-bfd9-645b9c86e68e.jpg?v=1717694179&width=480" alt="loading..."><h3>iPhone 15 128GB Pink</h3><p>₹48,999</p><button class="add-cart" data-id="e2">Add to Cart</button></div>
+          <div class="product-card" data-category="electronics"data-id="e3"><img src="https://www.applex.com.bd/cdn/shop/files/iPhone-15-Plus-_3_-8671.jpg?v=1738426440&width=1445" alt="loading..."><h3>Apple iPhone 15 Plus</h3><p>₹96,999</p><button class="add-cart" data-id="e3">Add to Cart</button></div>
+          <div class="product-card"data-category="electronics" data-id="e2"><img src="https://www.phonemart.ng/wp-content/uploads/2024/06/i15-bla.jpeg" alt="loading..."><h3>Apple iPhone 15, 128GB, Black</h3><p>₹40,000</p><button class="add-cart" data-id="e2">Add to Cart</button></div>
+          <div class="product-card" data-category="electronics"data-id="e3"><img src="https://m.media-amazon.com/images/I/61JvFLHZ6NL._UF1000,1000_QL80_.jpg" alt="loading..."><h3>iPhone 16 Pro 1 TB:</h3><p>₹66,999</p><button class="add-cart" data-id="e3">Add to Cart</button></div>
+          <div class="product-card"data-category="electronics" data-id="e2"><img src="https://m.media-amazon.com/images/I/51QCWXxh8GL._UF1000,1000_QL80_.jpg" alt=""><h3>Apple iPhone 16 Pro (White Titanium, 128 GB)</h3><p>₹49,499</p><button class="add-cart" data-id="e2">Add to Cart</button></div>
+          <div class="product-card" data-category="electronics"data-id="e3"><img src="https://www.jiomart.com/images/product/original/494423044/apple-iphone-16-pro-128-gb-white-titanium-digital-o494423044-p609946211-0-202409111636.jpeg?im=Resize=(1000,1000)" alt="loading..."><h3>iPhone 16 Pro-the ultimate Goldilocks phone | T3</h3><p>₹45,999</p><button class="add-cart" data-id="e3">Add to Cart</button></div>
+          <div class="product-card"data-category="electronics" data-id="e2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6FLGeI88Zp-cIJiUPtYydsUCXBrV7cwVt8Q&s" alt="loading..."><h3>iPhone 16 Pro 128 GB: 5G Mobile Phone</h3><p>₹49,499</p><button class="add-cart" data-id="e2">Add to Cart</button></div>
+          <div class="product-card" data-category="electronics"data-id="e3"><img src="https://img.myipadbox.com/upload/store/product_l/EDA007013723M.jpg" alt="loading..."><h3>Apple Silicone Case with MagSafe Orange Apple iPhone 17 Pro Max</h3><p>₹1,50,999</p><button class="add-cart" data-id="e3">Add to Cart</button></div>
+          <div class="product-card"data-category="electronics" data-id="e2"><img src="https://pimcdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad,format=webp,quality=70/images/iphone_17_pro_max_deep_blue_1?1758533413" alt="loading..."><h3>Apple iPhone 17 Pro Max (1TB) – Deep Blue </h3><p>₹1,49,999</p><button class="add-cart" data-id="e2">Add to Cart</button></div>
+          <div class="product-card" data-category="electronics"data-id="e3"><img src="https://preview.redd.it/iphone-17-pro-in-ultramarine-concept-v0-t66l0s0xm6hf1.jpeg?width=640&crop=smart&auto=webp&s=98c881ed94e725ab9e109c7be9a80caf9e6e92a4" alt="loading..."><h3>iPhone 17 Pro in Ultramarine</h3><p>₹1,45,999</p><button class="add-cart" data-id="e3">Add to Cart</button></div>
+          <div class="product-card"data-category="electronics" data-id="e2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqmQHTN9zNiE8aES6pG7qE-IyzrnM7yOBD3g&s" alt="loading..."><h3>iPhone 17 Pro in a new Sky Blue color</h3><p>₹1,42,499</p><button class="add-cart" data-id="e2">Add to Cart</button></div>
+          <div class="product-card" data-category="electronics"data-id="e3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcQ2g0WqoY95d_WBVb-sFAulVbhqXcr_6CjQ&s" alt="loading..."><h3>Apple MacBook Pro 16 (M4 Pro / M4 Max)</h3><p>₹2,45,999</p><button class="add-cart" data-id="e3">Add to Cart</button></div>
+          <div class="product-card"data-category="electronics" data-id="e2"><img src="https://www.imagineonline.store/cdn/shop/files/MacBook_Pro_16_in_M3_Pro_Max_Silver_PDP_Image_Position_2__en-IN_31ba12c4-b15b-4663-a6ea-b9008eb25c89.jpg?v=1698727198&width=1445" alt="loading..."><h3>16-inch MacBook Pro M3 Pro 512GB Silver – Apple M3</h3><p>₹2,42,499</p><button class="add-cart" data-id="e2">Add to Cart</button></div>
+          <div class="product-card" data-category="electronics"data-id="e3"><img src="https://quicktech.in/cdn/shop/files/MBP16M4-Pro2.jpg?v=1730639679&width=1445" alt=""><h3>Apple MacBook Pro 16-Inch | M4 Pro Chip </h3><p>₹2,45,999</p><button class="add-cart" data-id="e3">Add to Cart</button></div>
+          <div class="product-card"data-category="electronics" data-id="e2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd2XyMGvO3o2sUhvvz_wpIeUBO3FIeraZUAQ&s" alt="loading..."><h3>MacBook Pro 14- M4 1TB SSD</h3><p>₹3,29,499</p><button class="add-cart" data-id="e2">Add to Cart</button></div>
+          <div class="product-card" data-category="electronics"data-id="e3"><img src="https://namtastic.com/wp-content/uploads/2016/02/DSC03174.jpg" alt="loading..."><h3>SONY RX100 M3 Digital Camera</h3><p>₹1,45,999</p><button class="add-cart" data-id="e3">Add to Cart</button></div>
+          <div class="product-card" data-category="electronics"data-id="e4"><img src="https://i.ebayimg.com/thumbs/images/g/KfoAAOSwO5poGyuL/s-l1200.jpg" alt="loading..."><h3>Sony Digital Cameras with 1080p HD Video Recording </h3><p>₹90,499</p><button class="add-cart" data-id="e4">Add to Cart</button></div>
+          <div class="product-card" data-category="electronics"data-id="e5"><img src="https://m.media-amazon.com/images/I/517CEyCXIHL._UF1000,1000_QL80_.jpg" alt="loading..."><h3>Buy Sony A7 Iii Full-Frame Mirrorless Interchangeable-Lens 64 GB Camera -With 28-70Mm...</h3><p>₹1,25,999</p><button class="add-cart" data-id="e5">Add to Cart</button></div>
+          <div class="product-card" data-category="electronics"data-id="e6"><img src="https://poojaelectronics.in/storage/2020/12/Sony-a7-miii-with-28-70-lens.jpg" alt="loading..."><h3>Sony A7 III & 28-70 mm Zoom Lens Camera ILCE-7M3K</h3><p>₹1,42,999</p><button class="add-cart" data-id="e6">Add to Cart</button></div>
+          
+            <!-- watches -->
+          <div class="product-card"data-category="watches" data-id="w1"><img src="https://img.tatacliq.com/images/i16//437Wx649H/MP000000016504109_437Wx649H_202403181810431.jpeg" alt="loading..."><h3>Titan 1688KM06 Regalia Premium Analog Watch for Men</h3><p>₹13,999</p><button class="add-cart" data-id="w1">Add to Cart</button></div>
+          <div class="product-card"data-category="watches" data-id="w2"><img src="https://sylvi.in/cdn/shop/collections/analog_watch_For_Men.jpg?v=1715685842" alt="loading..."><h3>Sylvi 1118-IMPERIAL Analog Watch for Men</h3><p>₹10,123</p><button class="add-cart" data-id="w2">Add to Cart</button></div>
+          <div class="product-card"data-category="watches" data-id="w2"><img src="https://www.limestonefashion.co.in/wp-content/uploads/2024/03/limestone-ls3047-black-dial-black-chain-analog-watch-for-men-1.webp" alt="loading..."><h3>Limestone LS3047 Black Dial Analog Watch | Stylish Men's Timepiece</h3><p>₹12,999</p><button class="add-cart" data-id="w2">Add to Cart</button></div>
+          <div class="product-card"data-category="watches" data-id="w2"><img src="https://www.justwatches.com/cdn/shop/files/GW0456G3_J.jpg?v=1734676174&width=2000" alt="loading..."><h3>Guess Mens 43 mm Phoenix Green Dial Stainless Steel Analog Watch - GW0456G3</h3><p>₹49,999</p><button class="add-cart" data-id="w2">Add to Cart</button></div>
+          <div class="product-card"data-category="watches" data-id="w2"><img src="https://titanworld.com/cdn/shop/files/1805KM06_1_65b92722-46b6-46a2-9b37-8d90efe38607.jpg?v=1730812374" alt="loading..."><h3>Titan Quartz Analog with Day and Date Black Dial Watch for Men – Titan World</h3><p>₹12,990</p><button class="add-cart" data-id="w2">Add to Cart</button></div>
+          <div class="product-card"data-category="watches" data-id="w2"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw5e5d5f36/images/Titan/Catalog/1805QM01_1.jpg?sw=600&sh=600" alt="loading..."><h3>Titan Neo Splash Quartz Analog with Date Blue Dial Blue Stainless Steel Strap Watch For Men</h3><p>₹6,800</p><button class="add-cart" data-id="w2">Add to Cart</button></div>
+          <div class="product-card"data-category="watches" data-id="w2"><img src="https://www.ukspecialistwatches.co.uk/wp-content/uploads/2024/03/Carlisle-Luxury-Rolex-Watches-UK-Luxury-Mens-Ladies-Watches.webp" alt="loading..."><h3>Carlisle Rolex Watch</h3><p>₹45,990</p><button class="add-cart" data-id="w2">Add to Cart</button></div>
+          <div class="product-card" data-category="watches"data-id="w3"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw7f596207/images/Titan/Catalog/9411NL01_1.jpg?sw=600&sh=600" alt="loading..."><h3>Titan Digital Black Dial Quartz Leather Strap watch for Men</h3><p>₹3,499</p><button class="add-cart" data-id="w3">Add to Cart</button></div>
+          <div class="product-card"data-category="watches" data-id="w4"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwf49297e6/images/Titan/Catalog/1518WL01_1.jpg?sw=600&sh=600" alt="loading..."><h3>Titan Quartz Analog Black Dial Leather Strap Watch for Men - nb1518wl01 | Titan</h3><p>₹9,999</p><button class="add-cart" data-id="w4">Add to Cart</button></div>
+          <div class="product-card"data-category="watches" data-id="w5"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwf93e0057/images/Titan/Catalog/1043SM15_1.jpg?sw=600&sh=600" alt="loading..."><h3>Buy Online Titan Edge Grey Dial Analog Stainless Steel Strap watch for Men - nh1043sm15a | Titan</h3><p>₹6,499</p><button class="add-cart" data-id="w5">Add to Cart</button></div>
+          <div class="product-card"data-category="watches" data-id="w6"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw7969ce4a/images/Titan/Catalog/1596NL01_1.jpg?sw=600&sh=600" alt="loading..."><h3>Titan Edge Black Dial Analog Leather Strap watch for Men</h3><p>₹14,999</p><button class="add-cart" data-id="w6">Add to Cart</button></div>
+           <div class="product-card"data-category="watches" data-id="w6"><img src="https://assets.myntassets.com/w_412,q_30,dpr_3,fl_progressive,f_webp/assets/images/240136/2023/6/21/f64c02bb-568f-4fd9-a2af-e8dfc8dd8c701687359939445TitanEdgeMenBlackAnaloguewatchNL1595NL011.jpg" alt="loading..."><h3>Titan Edge Men Black Analogue watch NL1595NL01</h3><p>₹4,999</p><button class="add-cart" data-id="w6">Add to Cart</button></div>
+         <!-- bags -->
+          <div class="product-card" data-category="bags"data-id="bag1"><img src="https://steelhorseleather.com/cdn/shop/products/DSC_4586lowres.jpg?v=1690445317" alt="loading..."><h3>Leather Bag</h3><p>₹3,999</p><button class="add-cart" data-id="bag1">Add to Cart</button></div>
+          <div class="product-card"data-category="bags" data-id="bag2"><img src="https://craftandglory.in/cdn/shop/products/DSC09868_1.jpg?v=1659180782&width=1946" alt="loading..."><h3>Backpack</h3><p>₹2,499</p><button class="add-cart" data-id="bag2">Add to Cart</button></div>
+          <div class="product-card" data-category="bags"data-id="bag3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuIH2phLYK4pQenceL4DnPA_V-Q3rkUZpqsw&s" alt="loading..."><h3>Travel Bag</h3><p>₹4,499</p><button class="add-cart" data-id="bag3">Add to Cart</button></div>
+          <div class="product-card"data-category="bags" data-id="bag4"><img src="https://images-cdn.ubuy.co.in/654409b1f9fd335f543daa12-weixier-small-shoulder-bags-for-mens.jpg" alt="loading..."><h3>Handbag</h3><p>₹2,999</p><button class="add-cart" data-id="bag4">Add to Cart</button></div>
+          <div class="product-card" data-category="bags"data-id="bag5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPVMz9OknRkBNomfTe9IHUl3mtxnshL7h92Q&s" alt="loading..."><h3>Office Bag</h3><p>₹3,499</p><button class="add-cart" data-id="bag5">Add to Cart</button></div>
+          <div class="product-card" data-category="bags"data-id="bag6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR9MSB7Ipsr9-ku7v14rKNT74r0nFRdQbOOw&s" alt="loading..."><h3>Casual Bag</h3><p>₹1,999</p><button class="add-cart" data-id="bag6">Add to Cart</button></div>
+        
+         
+
+        </div>
+
+  </section>
+
+  <!-- FEEDBACK -->
+  <section id="feedback">
+    <h2>Feedback</h2>
+    <form id="feedback-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Feedback" required></textarea>
+      <button type="submit" class="btn-primary">Submit Feedback</button>
+    </form>
+    <p id="feedback-msg">Thank you for your feedback!</p>
+  </section>
+
+</main>
+
+<aside id="cart" class="cart">
+  <div class="cart-head">
+    <h3>Your Cart</h3>
+    <button id="close-cart" class="icon-btn"><i class="ri-close-line"></i></button>
+  </div>
+  <div id="cart-items" class="cart-items">
+    <p class="empty">Your cart is empty.</p>
+  </div>
+  <div class="cart-footer">
+    <div class="total">Total: <span id="cart-total">₹0</span></div>
+    <button id="checkout" class="btn-primary">Buy Now</button>
+  </div>
+</aside>
+
+<script src="script.js"></script>
+</body>
+</html>
